@@ -21,7 +21,7 @@ class App extends React.Component {
         super();
         this.state = {
             reference_token: "",
-            merchant_key: "test_$2y$10$nBFlhIbZ0xA1A0.-MPvoP.v45N5oiAJeBPomyWw-dya-GEUtqZKiy", 
+            merchant_key: "YOUR_MERCHANT_KEY", 
             canGoBack: false,
             check_reference_token:false
         };
