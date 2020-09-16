@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>asdasd213
+<script type="text/javascript" src="https://www.foloosi.com/js/foloosipay.v2.rn.js"></script>
+<script type="text/javascript">
+    var urlParams = new URLSearchParams(window.location.search);
+    var reference_token = urlParams.get('reference_token');
+    var options = {
+        "reference_token" :"${reference_token}",
+        "merchant_key" : "your key"
+    }
+    var fp1 = new Foloosipay(options);
+    fp1.open();
+    foloosiHandler(response, function (e) {
+        if(e.data.status == 'success'){
+          window.ReactNativeWebView.postMessage(JSON.stringify(e.data));
+          window.ReactNativeWebView.postMessage(JSON.stringify(e.data), '*');
+        }
+        if(e.data.status == 'error'){
+          window.ReactNativeWebView.postMessage(JSON.stringify(e.data));
+          window.ReactNativeWebView.postMessage(JSON.stringify(e.data), '*');
+        }
+  });
+</script>
+</body>
+</html>

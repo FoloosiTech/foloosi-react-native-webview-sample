@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.foloosirn"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:5:5-74
+8        android:minSdkVersion="16"
+8-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:5:15-41
+9        android:targetSdkVersion="16" />
+9-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:5:42-71
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->E:\xampp\htdocs\foloosirn\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->E:\xampp\htdocs\foloosirn\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.37.0] C:\Users\Admin-css\.gradle\caches\transforms-2\files-2.1\5e82391f69f8db51262a66183e10bfe3\flipper-0.37.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.37.0] C:\Users\Admin-css\.gradle\caches\transforms-2\files-2.1\5e82391f69f8db51262a66183e10bfe3\flipper-0.37.0\AndroidManifest.xml:16:22-73
+14
+15    <application
+15-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:6:5-25:19
+16        android:name="com.foloosirn.MainApplication"
+16-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:7:7-38
+17        android:allowBackup="false"
+17-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:11:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\Admin-css\.gradle\caches\transforms-2\files-2.1\57a7755ec7f8569f8e81b10deb53e9cc\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:9:7-41
+21        android:label="@string/app_name"
+21-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:8:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:10:7-52
+23        android:theme="@style/AppTheme"
+23-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:12:7-38
+24        android:usesCleartextTraffic="true" >
+24-->E:\xampp\htdocs\foloosirn\android\app\src\debug\AndroidManifest.xml:7:18-53
+25        <activity
+25-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:13:7-23:18
+26            android:name="com.foloosirn.MainActivity"
+26-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:14:9-37
+27            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+27-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:16:9-86
+28            android:label="@string/app_name"
+28-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:15:9-41
+29            android:launchMode="singleTask"
+29-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:17:9-40
+30            android:windowSoftInputMode="adjustResize" >
+30-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:18:9-51
+31            <intent-filter>
+31-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:19:9-22:25
+32                <action android:name="android.intent.action.MAIN" />
+32-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:20:13-65
+32-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:20:21-62
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:21:13-73
+34-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:21:23-70
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+37-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:24:7-84
+37-->E:\xampp\htdocs\foloosirn\android\app\src\main\AndroidManifest.xml:24:17-81
+38
+39        <provider
+39-->[:react-native-webview] E:\xampp\htdocs\foloosirn\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+40            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+40-->[:react-native-webview] E:\xampp\htdocs\foloosirn\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
+41            android:authorities="com.foloosirn.fileprovider"
+41-->[:react-native-webview] E:\xampp\htdocs\foloosirn\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
+42            android:exported="false"
+42-->[:react-native-webview] E:\xampp\htdocs\foloosirn\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+43            android:grantUriPermissions="true" >
+43-->[:react-native-webview] E:\xampp\htdocs\foloosirn\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+44            <meta-data
+44-->[:react-native-webview] E:\xampp\htdocs\foloosirn\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
+45                android:name="android.support.FILE_PROVIDER_PATHS"
+45-->[:react-native-webview] E:\xampp\htdocs\foloosirn\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+46                android:resource="@xml/file_provider_paths" />
+46-->[:react-native-webview] E:\xampp\htdocs\foloosirn\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
+47        </provider>
+48    </application>
+49
+50</manifest>
